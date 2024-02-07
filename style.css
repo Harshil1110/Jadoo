@@ -34,7 +34,7 @@ h3 {
   padding: 100px 145px;
 }
 .spacerr {
-    padding: 18px 140px 100px 140px;
+    padding: 18px 145px 100px;
   }
 header {
   /* background: red; */
@@ -42,14 +42,14 @@ header {
   display: flex;
   align-items: center;
 }
-nav {
+header nav {
   max-width: 1440px;
   width: 100%;
   margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 48px 140px 18px 140px;
+  padding: 48px 145px 18px;
 }
 nav .nav-ul {
   display: flex;
@@ -78,7 +78,6 @@ nav .nav-btns #lang {
 .hero-content{
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 .hero-content .hero-desc p:nth-child(1){
     text-transform: uppercase;
@@ -167,4 +166,156 @@ nav .nav-btns #lang {
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
+}
+
+/* TIMING */
+.selling-content h3{
+  font-size: 18px;
+  font-weight: 600px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.selling-content h1{
+  font-size: 50px;
+  margin-bottom: 66px;
+  text-align: center;
+}
+.selling-content .selling-cards
+{
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.selling-content .selling-cards .card{
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+  border-radius: 24px;
+  width: 30%;
+}
+.selling-content .selling-cards .card img{
+  border-radius: 24px 24px 0 0;
+  margin-bottom: 27px;
+}
+.selling-content .selling-cards .card .place{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 20px 19px;
+}
+.selling-content .selling-cards .card .place h4{
+  font-family: "poppins",sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #5E6282;
+}
+.selling-content .selling-cards .card .place span{
+  font-size: 18px;
+  font-weight: 400;
+  color: #5E6282;
+}
+.selling-content .selling-cards .card .days{
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin: 0 20px 42px;
+}
+.selling-content .selling-cards .card .days span{
+  font-size: 16px;
+  color: #5E6282;
+}
+.selling-content .selling-cards .decore{
+  position: absolute;
+  top: 0;
+  z-index: -99999;
+  right: -67px;
+}
+
+/* BOOKING */
+.booking-content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.booking-content .booking-desc {
+  width: 48%;
+}
+.booking-content .booking-desc p{
+  font-size: 18px;
+  font-weight: 600px;
+  margin-bottom: 15px;
+}
+.booking-content .booking-desc h2{
+  font-size: 50px;
+  font-weight: 700;
+  margin-bottom: 31px;
+}
+.booking-content .booking-desc .details{
+  display: flex;
+  /* justify-content: space-between; */
+  align-items:flex-start;
+  gap: 21px;
+  margin-bottom: 48px;
+}
+.booking-content .booking-desc .details .points span{ 
+  display: inline-block;
+  font-weight: 700;
+  font-size: 16px;
+  margin-bottom: 4px;
+  color: #5E6282;
+}
+.booking-content .booking-desc .details .points p{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #5E6282;
+}
+.booking-content .booking-image{
+  width: 40%;
+  /* position: relative; */
+}
+.booking-content .booking-image .card{
+  position: relative; 
+  width: 370px;
+  height: 400px;
+  padding: 20px 24px;
+  border-radius: 26px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+  z-index: 999999;
+}
+.booking-content .booking-image .card p:nth-child(2){
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 26px;
+  color: black
+}
+.booking-content .booking-image .card p:nth-child(3){
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 13px;
+  margin-bottom: 21px;
+  color: #84829A;
+}
+.booking-content .booking-image .card .icons{
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  gap: 18px;
+  margin-bottom: 30px;
+}
+.booking-content .booking-image .card .people{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.booking-content .booking-image .card .people span{
+  font-size: 16px;
+  font-weight: 500;
+  color: #84829A;
+}
+.booking-content .booking-image .card .sub-card{
+  position: absolute;
+  top: 55%;
+  right: -50%;
 }
