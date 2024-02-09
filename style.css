@@ -76,9 +76,12 @@ nav .nav-btns #lang {
 }
 
 /* HERO SECTION  */
-.hero-content {
-  display: flex;
-  justify-content: center;
+.hero-content{
+  margin: 0 auto;
+}
+.hero-content .hero-desc{
+    width: 630px;
+    height: 535px;
 }
 .hero-content .hero-desc p:nth-child(1) {
   text-transform: uppercase;
@@ -125,6 +128,13 @@ nav .nav-btns #lang {
   display: inline-block;
   margin-bottom: 11px;
 }
+.hero-content .img{
+    width: 783px;
+    height: 764px;
+    position: absolute;
+    right: 0;
+    top: 70px;
+}
 
 /* CATEGORY  */
 .category-content h3 {
@@ -142,6 +152,7 @@ nav .nav-btns #lang {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  /* flex-wrap: wrap; */
   width: 100%;
 }
 .category-content .category-cards .card {
@@ -453,5 +464,37 @@ footer .footer-content{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-shrink: 100%;
+  width: 100%;
+}
+.footer-content .logo p:nth-child(1){
+  font-size: 44px;
+  font-weight: 400;
+  margin-bottom: 19px;
+  color: #181E4B;
+}
+.footer-content .logo p:nth-child(2){
+  font-size: 13px;
+  line-height: 15px;
+  font-weight: 400;
+}
+.common h3{
+  font-size: 21px;
+  font-family: "poppins";
+  font-weight: 700;
+  margin-bottom: 34px;
+}
+.common li{
+  margin-bottom: 14px;
+  font-weight: 400;
+  color: #5E6282;
+}
+.footer-content .media p{
+  margin-bottom: 16px;
+}
+footer .cr{
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 84px;
+  margin-bottom: 79px;
+  text-align: center;
 }
